@@ -1,0 +1,143 @@
+/* Estilos para el banner */
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.banner2 {
+    display: flex;
+    align-items: center;
+    background-color: #cf0b0b;
+    color: white;
+    padding: 20px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #f50909;
+    font-family: Comic Sans MS;
+}
+
+/* Estilos para el menú de navegación */
+.menu {
+    list-style: none;
+    padding: 0;
+    background-color: #444;
+    margin: 0;
+    display: flex;
+    font-family: Comic Sans MS;
+}
+
+.menu > li {
+    position: relative;
+    margin-right: 20px;
+    padding: 15px;
+    color: white;
+}
+
+.menu > li:hover > ul {
+    display: block;
+}
+
+.menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 5px;
+    color: white;
+}
+
+.menu ul li:hover {
+    background-color: #666;
+}
+
+/* Estilos para la imagen de fondo y párrafo de bienvenida */
+.background {
+    background-image: url('../imagen/fondo.jpg');
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 10em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px;
+}
+
+/* Estilos para la tabla */
+.table-section {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Comic Sans MS;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e9e9e9;
+}
+  footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: #333;
+color: #e9e9e9;
+text-align: center;
+padding: 10px 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+  }
+footer p {
+
+    margin: 0;
+    padding: 0 10px;
+}
+footer a {
+color: #e9e9e9;
+text-decoration: none;
+margin: 0 5px;
+
+}
+
+footer a:hover {
+
+    color: aqua;
+}
